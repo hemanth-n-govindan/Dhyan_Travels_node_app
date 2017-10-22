@@ -1,0 +1,50 @@
+{
+    "AppSetting": {
+        "AllowedOrgins": [
+            "http://www.nupinmathew.online",
+            "http://localhost:4200"
+        ],
+        "EmailConfiguration": {
+            "EmailService": "Gmail",
+            "SourceEmailId": "hemanthyebhi@gmail.com",
+            "SouceEmailKey": "yebhi123",
+            "Status": "TRUE"
+        },
+        "MSGConfiguration": {
+            "ServiceEndpoint": "https://control.msg91.com/api/sendhttp.php?authkey=[@AUTHKEY@]&mobiles=[@PHONENUMBER@]&message=[@MESSAGE@]&sender=[@SENDER@]&route=[@ROUTE@]&country=[@COUNTRYCODE@]&response=json",
+            "AuthKey": "145593ArGVeQsElLKz58f83ef4",
+            "Sender": "HEMSNG",
+            "Route": "4",
+            "CountryCode": "91",
+            "Status": "FALSE"
+        }
+    },
+    "ApplicationConstant": {
+        "ContentFilePath": "contents/ApplicationPageContent.xml",
+        "Status": {
+            "Failure": "Failure",
+            "Success": "Success"
+        },
+        "StatusCodes": {
+            "000": "000",
+            "001": "001",
+            "002": "002"
+        },
+        "NotificationType": {
+            "Email": "Email",
+            "TextMessage": "TextMessage"
+        },
+        "ContentType": {
+            "Array": "Array",
+            "Object": "Object"
+        }
+    },
+    "ReplacingString": {
+        "AUTHKEY": "[@AUTHKEY@]",
+        "PHONENUMBER": "[@PHONENUMBER@]",
+        "MESSAGE": "[@MESSAGE@]",
+        "SENDER": "[@SENDER@]",
+        "ROUTE": "[@ROUTE@]",
+        "country": "[@COUNTRYCODE@]"
+    }
+}

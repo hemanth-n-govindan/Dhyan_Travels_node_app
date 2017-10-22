@@ -1,0 +1,177 @@
+
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>DhyanTravels</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="http://localhost:4200/assets/img/meta.png">
+<style type="text/css">
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+app-root{
+  display: block;
+  height: 100%;
+}
+
+.main-section{
+      display: block;
+    height: calc(100% - 123px);
+}
+
+.logo {
+  width: 15%;
+  height: 100%;
+  background-image: url(http://localhost:4200/assets/img/Logo3.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 30%;
+  left: 1%;
+}
+
+.page-content {
+  width: 100%;
+  padding: 8% 10%;
+  box-sizing: border-box;
+  margin: auto;
+  min-height: calc(100% - 127px);
+}
+
+
+</style>
+<style>
+
+.main-header {
+    background: #ffd205;
+	height: 80px;
+}
+.main-header .line-blue{
+    height: 2px;
+    background-color: #000d58;
+    display: inline-block;
+    width: 100%;
+}
+.main-header  .line-yellow {
+    height: 2px;
+    background-color: #f3cc2f;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    margin-right: 10%;
+    position: relative;
+}
+
+table tr td:nth-child(3){
+font-weight:bold;
+padding-left:20px;
+}
+table tr td:nth-child(2){
+padding-left:10px;
+}
+.subtext{
+
+    float: right;
+    margin: 50px;
+    font-size: larger;
+    font-family: cursive;
+    color: #00355f;
+
+}
+
+</style>
+<style>
+footer {
+    background-color: #00355f;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    text-align: center;    
+    font-size: 15px;
+}
+
+footer   .footer-line {
+    background-color: rgba(245, 245, 245, 0.50);
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    margin-top: 1px;
+}
+
+footer   .footer-content  div{
+    color: rgba(245, 245, 245, 0.70);
+    margin-top: 15px;
+    display: inline-table;
+}
+</style>
+
+</head>
+<body>
+  <div class="main-header">
+  <div class="nav">
+    <div class="logo"></div>
+	<p class="subtext">... We drive your dreams</p>
+
+  </div>
+</div>
+
+<div  class="main-section">
+
+
+	<div class="page-content">
+	
+	<h3> Hi Admin
+	</h3>
+	<div>
+	We have one [@REQUESTTYPE@] from [@FULLNAME@]. <br/> Kindly reach them for the service below.
+	</div>
+	<div class="request-details">	
+	<br/>
+	Request Reference Number : <b>[@TRAVELREFERENVENUMBER@]</b>
+	<br/>
+	<br/>
+	<table>
+	
+	<tr> <td>Name</td> <td> : </td> <td style="font-style:bold"> [@FULLNAME@]</td></tr>
+	<tr> <td>Request Type</td> <td> : </td> <td > [@REQUESTTYPE@]</td></tr>
+	<tr> <td>Travel Date</td> <td> : </td> <td> [@TRAVELDATE@]</td></tr>
+	<tr> <td>No of Trip days</td> <td> : </td> <td> [@Trip_NumberOfDays@]</td></tr>
+	<tr> <td>Places</td> <td> : </td> <td> [@TRIP_PLACES@]</td></tr>
+	<tr> <td>Vehicle</td> <td> : </td> <td> [@VEHICLE@]</td></tr>
+	<tr> <td>Contact Number</td> <td> : </td> <td> [@PHONENUMBER@]</td></tr>
+	
+	
+	</table>
+	<br/>
+	<p>Please feel to reach us on [@DOMAIN@] or [@CONTACTUSPHONE@]</p>
+	<p>Thank You <br/> Dhyan Travels - we drive your dreams</p>
+	</div>
+  </div>
+
+
+</div>
+	<footer>
+  <div class="footer-content">
+  <div >Copyright © 2017 Dhyan Travels</div>
+  </div>
+  </footer>
+  </body>
+</html>

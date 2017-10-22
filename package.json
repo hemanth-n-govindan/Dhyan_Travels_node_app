@@ -1,0 +1,24 @@
+{
+  "name": "dhyantravels-nodeapp",
+  "version": "1.0.0",
+  "description": "Dhyan Travels node app",
+  "repository": "https://github.com/HemanthNGovindan/Dhyan_Travels",
+  "scripts": {
+    "start": "node services_api.js"
+  },
+  "author": "Hemanth",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "1.17.x",
+    "cors": "2.8.4",
+    "express": "~4.15.2",
+    "fs": "0.0.1-security",
+    "nodemailer": "^4.2.0",
+    "promise": "8.x.x",
+    "xml2js": "0.4.17"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}

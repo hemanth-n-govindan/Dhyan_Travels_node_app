@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PageContents>
+	<!--Routes-->
+	<PageContent id='LinkItems' Type='Array'>
+		<Content LinkName='Home' Link='/Home' Active='false'/>
+		<Content LinkName='Cabs' Link='/Cabs' Active='true'/>
+		<Content LinkName='About' Link='/AboutUs' Active='false'/>
+		<Content LinkName='Contact' Link='/ContactUs' Active='false'/>
+	</PageContent>
+
+	<!--Cab Slides-->
+	<PageContent id="cab_slides" Type='Array'>
+		<Content HeaderText="One" DescriptionText="Decsription about image One" ImgURL="../assets/img/car/1.jpg" ImageIndex="TOUR_1" Active="true"/>
+		<Content HeaderText="Two" DescriptionText="Decsription about image Two" ImgURL="../assets/img/car/2.jpg" ImageIndex="TOUR_2" Active="false"/>
+		<Content HeaderText="Three" DescriptionText="Decsription about image Three" ImgURL="../assets/img/car/3.jpg" ImageIndex="TOUR_3" Active="false"/>
+		<Content HeaderText="Four" DescriptionText="Decsription about image Four" ImgURL="../assets/img/car/4.jpg" ImageIndex="TOUR_4" Active="false"/>
+	</PageContent>
+
+	<PageContent id="Vehicles" Type='Array'>
+		<Content ID="TTIC" Title="Tata Indica" Type="Hachtback" SeatingCapacity="4" CostNAC="7.50" CostAC="8.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v1.jpg"  ShortDescription="Preferable for short strip - within 500-600Km" Active="true"/>
+		<Content ID="TTIG" Title="Tata Indigo" Type="Sedan" SeatingCapacity="4" CostNAC="8.50" CostAC="9.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v2.jpg"  ShortDescription="Preferable sedan for short strip considering boot space" Active="true"/>
+		<Content ID="MLGN" Title="Mahindra Logan" Type="Sedan" SeatingCapacity="4" CostNAC="8.50" CostAC="9.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v3.jpg"  ShortDescription="Preferable sedan for short strip considering boot space" Active="true"/>
+		<Content ID="MVRT" Title="Mahindra Verito" Type="Sedan" SeatingCapacity="4" CostNAC="8.50" CostAC="9.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v4.jpg"  ShortDescription="Preferable sedan for short strip considering boot space" Active="true"/>
+		<Content ID="MSSWDZ" Title="Swift Dzire" Type="Sedan" SeatingCapacity="4" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v5.jpg"  ShortDescription="A best sedan class for comfort travel and added comfort" Active="true"/>
+		<Content ID="TYTETS" Title="Toyota Etios" Type="Sedan" SeatingCapacity="4" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v6.jpg"  ShortDescription="A best sedan class for comfort travel and added comfort" Active="true"/>
+		<Content ID="CTTVR8" Title="Chevrolet Tavera - 8" Type="MUV" SeatingCapacity="8" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v7.jpg"  ShortDescription="Preferable for group of 7 to 8 people with comforts" Active="true"/>
+		<Content ID="CTTVR9" Title="Chevrolet Tavera - 9" Type="MUV" SeatingCapacity="9" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v7.jpg"  ShortDescription="Preferable for group of 7 to 8 people with comforts" Active="true"/>
+		<Content ID="TYTINV" Title="Toyota Innova" Type="MUV" SeatingCapacity="9" CostNAC="NA" CostAC="13" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v8.jpg"  ShortDescription="A class multi utility vahicle for long trips and superior travel comforts" Active="true"/>
+		<Content ID="TTRV12" Title="Tempo Traveller - 12" Type="Commercial" SeatingCapacity="12" CostNAC="13" CostAC="15" MinDistancePerDay="300" DriverAllowance="300" ImgURL="../assets/img/vehicles/v9.jpg"  ShortDescription="Preferred for group travel of more than 10 people" Active="true"/>
+		<Content ID="TTRV13" Title="Tempo Traveller - 13" Type="Commercial" SeatingCapacity="13" CostNAC="13" CostAC="15" MinDistancePerDay="300" DriverAllowance="300" ImgURL="../assets/img/vehicles/v10.jpg"  ShortDescription="Preferred for group travel of more than 10 people" Active="true"/>
+		<Content ID="TTRV14" Title="Tempo Traveller - 14" Type="Commercial" SeatingCapacity="14" CostNAC="14" CostAC="16" MinDistancePerDay="300" DriverAllowance="300" ImgURL="../assets/img/vehicles/v11.jpg"  ShortDescription="Preferred for group travel of more than 10 people" Active="true"/>
+		<Content ID="MB18" Title="Mini Bus - 18" Type="Commercial" SeatingCapacity="18" CostNAC="20" CostAC="27" MinDistancePerDay="300" DriverAllowance="400" ImgURL="../assets/img/vehicles/v12.jpg"  ShortDescription="Commericial VEHICLEs for group travel with 15 plus passengers" Active="true"/>
+		<Content ID="MB20" Title="Mini Bus - 20" Type="Commercial" SeatingCapacity="20" CostNAC="20" CostAC="27" MinDistancePerDay="300" DriverAllowance="400" ImgURL="../assets/img/vehicles/v13.jpg"  ShortDescription="Commericial VEHICLEs for group travel with 18 plus passengers" Active="true"/>
+		<Content ID="MB32" Title="Mini Bus - 32" Type="Commercial" SeatingCapacity="32" CostNAC="30" CostAC="NA" MinDistancePerDay="300" DriverAllowance="800" ImgURL="../assets/img/vehicles/v14.jpg"  ShortDescription="Commericial VEHICLEs for group travel with 20 plus passengers" Active="true"/>
+		<Content ID="B49" Title="Bus - 49" Type="Commercial" SeatingCapacity="49" CostNAC="35" CostAC="NA" MinDistancePerDay="300" DriverAllowance="1000" ImgURL="../assets/img/vehicles/v15.jpg"  ShortDescription="A travel companion for larger people groups" Active="true"/>
+	</PageContent>
+
+	<PageContent id="PageText" Type='Object'>
+		<Content HeaderText="Copyright" DescriptionText="Copyright © [@CurrentYear@] Dhyan Travels" />
+		<Content HeaderText="CabPageHeader" DescriptionText="Pick your cab" />
+		<Content HeaderText="AboutUsPageHeader" DescriptionText="About Us"/>
+		<Content HeaderText="AboutUsText" DescriptionText="Payana is a new application for transportation, integrates city transportation for customers and driver partners onto a mobile technology platform. As one of India's fastest growing companies we ensure convenient, transparent and quick service fulfilment using technology to make transportation hassle free for everyone.Payana's offerings on its platform ranges from affordable AC cabs to the superior luxury offering as well as localized offerings like the ubiquitous Auto-rickshaws to Shuttle buses for daily commute. Using the Payana mobile app, users across 102 cities can conveniently book from over 450,000 VEHICLEs available to them.We�ve empowered hundreds of thousands of driver-partners as entrepreneurs, by building an ecosystem encompassing financing institutions, car manufacturers, service providers etc. for drivers to grow professionally and personally as well as a consistent earning opportunity for them on the Payana platform." />
+		<Content HeaderText="TravelSolganText" DescriptionText="&quot; We drive your dreams with you &quot; &lt;br/&gt;&lt;span&gt; - Dhyan Travels &lt;/span&gt;"/>
+		<Content HeaderText="TourSloganText" DescriptionText="&quot; To travel is to take a journey into yourself &quot; &lt;br/&gt;&lt;span&gt; - Danny Kaye &lt;/span&gt;"/>
+		<Content HeaderText="ContactUsPageHeader" DescriptionText="Contact Us"/>
+		<Content HeaderText="ContactUsEmail" DescriptionText="abc.abc@suntrust.com" />
+		<Content HeaderText="ContactUsPhone" DescriptionText="+91 - 9980836494" />
+		<Content HeaderText="ContactUsFacebookPage" DescriptionText="Dhyan Travels" />
+		<Content HeaderText="ContactUsAssistText" DescriptionText="Help us to assist you" />
+		<Content HeaderText="TagLine" DescriptionText="We drive your dreams" />
+	</PageContent>
+	<PageContent id="NotificationText" Type='Object'>
+		<Content HeaderText="CAB_CustomerServiceTextMessage" DescriptionText="Dear [@FULLNAME@], We would be very happy to serve your [@REQUESTTYPE@] - [@VEHICLE@] request on [@TRAVELDATE@] and we would confirm you the same in a while. Please feel to reach us on [@DOMAIN@] or [@CONTACTUSPHONE@]. Your reference number - [@TRAVELREFERENVENUMBER@]. Thank You \n Dhyan Travels - we drive your dreams" />
+		<Content HeaderText="CAB_TravelServiceTextMessage" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request on [@TRAVELDATE@] from [@CAB_FROMPLACE@] to [@CAB_TOPLACE@] for [@FULLNAME@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="CAB_TravelServiceEmailSubject" DescriptionText="[@REQUESTTYPE@] - [@VEHICLE@] for [@FULLNAME@] with reference number - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="CAB_TravelServiceEmailText" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request for [@TRIP_NUMBEROFDAYS@] days for [@FULLNAME@] to visit [@TRIP_PLACES@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="CAB_TravelServiceEmailTemplate" DescriptionText="contents/CAB_TravelServiceEmailTemplate.txt" />
+
+		<Content HeaderText="TRIP_CustomerTripServiceTextMessage" DescriptionText="Dear [@FULLNAME@], We would be very happy to serve your [@REQUESTTYPE@] request for [@TRIP_NUMBEROFDAYS@] days and we would confirm you the same in a while. Please feel to reach us on [@DOMAIN@] or [@CONTACTUSPHONE@]. Your reference number - [@TRAVELREFERENVENUMBER@]. Thank You \n Dhyan Travels - we drive your dreams" />
+		<Content HeaderText="TRIP_TravelServiceTextMessage" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request for [@TRIP_NUMBEROFDAYS@] days starting from [@TRAVELDATE@] for [@FULLNAME@] to visit [@TRIP_PLACES@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="TRIP_TravelServiceEmailSubject" DescriptionText="[@REQUESTTYPE@] - [@VEHICLE@] for [@FULLNAME@] with reference number - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="TRIP_TravelServiceEmailText" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request for [@TRIP_NUMBEROFDAYS@] days starting from [@TRAVELDATE@] for [@FULLNAME@] to visit [@TRIP_PLACES@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+	
+	</PageContent>
+	<PageContent id="ApplicationConfiguration" Type='Object'>
+		<Content HeaderText="EmailStatus" DescriptionText="TRUE" />	
+		<Content HeaderText="TextMessageStatus" DescriptionText="TRUE" />
+	</PageContent>
+
+</PageContents>
+
