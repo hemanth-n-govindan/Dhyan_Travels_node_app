@@ -5,7 +5,7 @@
             "http://localhost:4200"
         ],
         "EmailConfiguration": {
-            "EmailService": "Gmail",
+            "EmailService": "gmail",
             "SourceEmailId": "hemanthyebhi@gmail.com",
             "SouceEmailKey": "yebhi123",
             "Status": "TRUE"
@@ -16,7 +16,7 @@
             "Sender": "HEMSNG",
             "Route": "4",
             "CountryCode": "91",
-            "Status": "FALSE"
+            "Status": "TRUE"
         }
     },
     "ApplicationConstant": {

@@ -11,13 +11,15 @@ var corsOptions = {
         var originIsWhitelisted = allowedOrigins.indexOf(origin) !== -1;
         callback(null, originIsWhitelisted);
     },
+    maxAge:1800,
     credentials: true
 };
 
 app.use(cors(corsOptions));
 
+app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({
-    extended: false
+	extended: true
 }));
 
 app.post('/', function (req, res) {
